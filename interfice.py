@@ -1,3 +1,4 @@
+# для удобного 
 def print_mark(marks):
     ball=[]
     print("вашы оценки")
@@ -9,12 +10,12 @@ def print_mark(marks):
         mark = item['mark']
         theme = item['theme']
         ball.append(int(mark))
-        print(f"{date}\t|\tоценка: {mark}\t|\t тема: {theme}")
+        print(f"{date}\t|\tоценка: {mark}\t|\tтема: {theme}")
     print(f'средное значения оценок:{sum(ball) / len(ball)}')   
     
         
-def print_rps(rps):
-    date_1=rps["start_day"]
-    date_2=rps['end_date']
+def print_rsp(rsp):
+    date_1=rsp["start_day"]
+    date_2=rsp['end_date']
     print(f"{date_1}\t|\t{date_2}")
         
